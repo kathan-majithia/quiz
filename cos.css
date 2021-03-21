@@ -1,0 +1,130 @@
+
+body{
+    background-color: #7ed6df;
+    color:#4cd137;
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    height: 500px;
+    width: 800px;
+    background-color: #2f3640;
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-right:50px ;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#game{
+    text-align: center;
+    align-items: center;
+}
+
+#question{
+    color:#fbc531;
+    font-size: 35px;
+}
+
+.choice{
+    display: flex;
+    background-color: #ffbe76;
+    color: black;
+    margin-left: 270px;
+    padding: 1px 0px 0px 14px;
+    max-width: 200px;
+    border-radius: 50px;
+    font-size: 23px;
+    transition: 0.25s;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #ffbe76;
+    box-shadow: 5px 6px 10px rgb(73, 98, 107);
+}
+
+.correct,.correct:hover{
+    background-color: rgb(59, 219, 59);
+    color: black;
+}
+
+.incorrect,.incorrect:hover{
+    background-color: red;
+    color: black;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pre{
+    text-align: center;
+    color: #b2bec3;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.main{
+    text-align: center;
+}
+
+#load{
+    color: #0984e3;
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid ;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-top: 18%;
+    margin-left: 45%;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#show-score{
+    margin-top: 160px;
+    text-align: center;
+    font-size: 30px;
+    color: darkorange;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: crimson;
+    border: 4px solid black; 
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+button:hover{
+    background-color: black;
+}
+
+a:hover{
+    color: crimson;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
