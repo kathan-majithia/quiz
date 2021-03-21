@@ -229,7 +229,7 @@ let questions = [
         a: 3
     }
 ]
-const tot = questions.length
+const tot = 10
 
 startgame = () =>{
     quc = 0
