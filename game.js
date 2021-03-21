@@ -77,6 +77,14 @@ let questions = [
         a: 3
     },
     {
+        question: "Shortcut for getting help in Calc",
+        c1: "F1",
+        c2: "F7",
+        c3: "F9",
+        c4: "F11",
+        a: 1
+    },
+    {
         question: "Which is example of universal attribute ?",
         c1: "align",
         c2: "src",
@@ -99,6 +107,14 @@ let questions = [
         c3: "break",
         c4: "case",
         a: 2
+    },
+    {
+        question: "By default worksheets in Cals",
+        c1: "2",
+        c2: "4",
+        c3: "1",
+        c4: "3",
+        a: 4
     },
     {
         question: "Which type of pages can be created using HTML ?",
@@ -125,12 +141,28 @@ let questions = [
         a: 4
     },
     {
+        question: "Background colour of current worksheet",
+        c1: "black",
+        c2: "white",
+        c3: "grey",
+        c4: "red",
+        a: 2
+    },
+    {
         question: "Types of list in HTML",
         c1: "1",
         c2: "2",
         c3: "3",
         c4: "4",
         a: 3
+    },
+    {
+        question: "To display Calc team members",
+        c1: "displayteam()",
+        c2: "showteam()",
+        c3: "nameteam()",
+        c4: "starcalcteam()",
+        a: 4
     },
     {
         question: "Format specifier for single character is ",
@@ -165,6 +197,14 @@ let questions = [
         a: 2
     },
     {
+        question: "Presenting only necessary data is known as",
+        c1: "Sorting",
+        c2: "Filtering",
+        c3: "Vadidation",
+        c4: "Automation",
+        a: 2
+    },
+    {
         question: "Termination will occur if character is present in ",
         c1: "%[^ ]",
         c2: "%[ ]",
@@ -179,7 +219,8 @@ let questions = [
         c3: "15",
         c4: "6",
         a: 4
-    },{
+    },
+    {
         question: "HTML is ",
         c1: "Scripting Language",
         c2: "Coding Language",
