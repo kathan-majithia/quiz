@@ -77,6 +77,22 @@ let questions = [
         a: 3
     },
     {
+        question: "Which is example of universal attribute ?",
+        c1: "align",
+        c2: "src",
+        c3: "type",
+        c4: "start",
+        a: 1
+    },
+    {
+        question: "Which one is not supported image file in HTML",
+        c1: "png",
+        c2: "tiff",
+        c3: "mp2",
+        c4: "gif",
+        a: 3
+    },
+    {
         question: "Which one is not part of switch statement ?",
         c1: "default",
         c2: "else",
@@ -85,7 +101,15 @@ let questions = [
         a: 2
     },
     {
-        question: "A single line comment in C language source code can begin with",
+        question: "Which type of pages can be created using HTML ?",
+        c1: "database",
+        c2: "static",
+        c3: "dynamic",
+        c4: "All of these",
+        a: 2
+    },
+    {
+        question: "A single line comment in C code begins with",
         c1: "#",
         c2: "//",
         c3: "/",
@@ -101,6 +125,14 @@ let questions = [
         a: 4
     },
     {
+        question: "Types of list in HTML",
+        c1: "1",
+        c2: "2",
+        c3: "3",
+        c4: "4",
+        a: 3
+    },
+    {
         question: "Format specifier for single character is ",
         c1: "%d",
         c2: "%c",
@@ -109,12 +141,28 @@ let questions = [
         a: 2
     },
     {
+        question: "Gap between edge of the cell and its content is known as",
+        c1: "cellspan",
+        c2: "cellmargin",
+        c3: "cellborder",
+        c4: "cellpadding",
+        a: 4
+    },
+    {
         question: "In scanf, & is optional for ",
         c1: "char",
         c2: "int",
         c3: "char[]",
         c4: "float",
         a: "3"
+    },
+    {
+        question: "Table with no border is also known as",
+        c1: "Useless table",
+        c2: "Seemless table",
+        c3: "Clueless table",
+        c4: "Listless table",
+        a: 2
     },
     {
         question: "Termination will occur if character is present in ",
