@@ -110,7 +110,7 @@ let questions = [
         a: 2
     },
     {
-        question: "By default worksheets in Cals",
+        question: "By default worksheets in Calc",
         c1: "2",
         c2: "4",
         c3: "1",
