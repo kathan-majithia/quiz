@@ -8,4 +8,7 @@
 <div>Also, there are sounds for every right and wrong answer </div>
 
 <br>
+<div>I have also added loading animation</div>
+
+<br>
 <div>ENJOY!!!!!!!!!!</div>
