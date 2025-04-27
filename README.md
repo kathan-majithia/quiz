@@ -5,4 +5,4 @@
 <div>Directly go to the link of the page and try to solve some basic problems</div>
 
 <br>
-<div>Also there are sounds for every right and wrong answers</div>
+<div>Also, there are sounds for every right and wrong answer </div>
